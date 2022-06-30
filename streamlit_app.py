@@ -85,7 +85,7 @@ st.write("if a file is uploaded, previously selected samples are not taken into 
 uploaded_audio_file = st.file_uploader(label="Select a short WAV file < 5 sec", 
                                         type="wav", 
                                         accept_multiple_files=False, 
-                                        key=None, 
+                                        key="upload_sample_handler", 
                                         help=None, 
                                         on_change=None, 
                                         args=None, 
