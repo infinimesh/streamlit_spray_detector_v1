@@ -29,8 +29,8 @@ from tensorflow.keras import models
 # import pickle
 
 ## Start-up debug
-st.write(st.config.get_option("server.enableCORS"))
-st.write(st.config.get_option("server.enableXsrfProtection"))
+st.write("CORS enabled:", st.config.get_option("server.enableCORS"))
+st.write("XSRF enabled:", st.config.get_option("server.enableXsrfProtection"))
 
 
 ## <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
