@@ -4,4 +4,4 @@
 # Default: 200
 maxUploadSize = 1
 enableCORS = false
-enableXsrfProtection = false
+enableXsrfProtection = true
